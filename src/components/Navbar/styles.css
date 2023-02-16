@@ -1,0 +1,32 @@
+.main-nav {
+  padding-left: 20px;
+  min-height: 70px;
+
+}
+
+.navbar-toggler-icon{
+  background: linear-gradient(0deg, #00285F, #00285F), #00285F;
+}
+.nav-logo-text {
+  font-size: 24px;
+ 
+}
+
+.main-menu {
+ 
+  justify-content: space-between;
+  font-size: 18px;
+  width: 170px;
+  
+}
+
+.main-menu a{
+  font-weight:400;
+}
+
+.main-menu a:hover {
+ font-weight:700;
+
+}
+
+
