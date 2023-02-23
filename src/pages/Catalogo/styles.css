@@ -17,9 +17,22 @@
 }
 
 @media (min-width: 576px) {
+  .catalogo-seed-container {
+    width: 520px;
+    height: 123px;
+  }
+}
 
-    .catalogo-seed-container {
-      width: 520px;
-      height: 123px;
-    }
+@media (min-width: 768px) {
+  .catalogo-seed-container {
+    width: 704px;
+    height: 123px;
+  }
+}
+
+@media (min-width: 992px) {
+  .catalogo-seed-container {
+    width: 930px;
+    align-items: flex-start;
+  }
 }
