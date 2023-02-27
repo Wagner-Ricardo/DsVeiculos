@@ -3,6 +3,7 @@ const ButtonIconCatalog = () => {
   return (
     <div className="button-container">
       <div className="field-seed">
+        
         <h6>
           <p>Digite sua busca</p>
         </h6>
