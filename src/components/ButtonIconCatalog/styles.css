@@ -11,13 +11,12 @@
   background-color: #ffffff;
   color: #a7a7a7;
   text-align: center;
-  border-radius:5px ;
+  border-radius: 5px;
 }
 
 .field-seed h6 {
   font-size: 14px;
 }
-
 
 .field-seed p {
   margin-top: 10px;
@@ -32,21 +31,41 @@
   font-weight: 700;
   text-align: justify;
 }
-  
+
 @media (min-width: 576px) {
   .field-seed {
     position: relative;
     width: 320px;
   }
 
-  .field-seed p{
+  .field-seed p {
     position: relative;
-    text-align:left;
+    text-align: left;
   }
 
   .btn-icon {
     width: 174px;
     text-align: center;
   }
+}
 
+@media (min-width: 768px) {
+  .button-container {
+    width: 536px;
+  }
+
+  .field-seed {
+    width: 516px;
+  }
+}
+
+@media (min-width: 992px) {
+  .button-container {
+    width: 940px;
+  }
+  
+  .field-seed {
+    margin-left: 94px;
+    width: 584px;
+  }
 }
