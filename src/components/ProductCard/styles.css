@@ -5,6 +5,7 @@
   margin-bottom: 20px;
   background: #EDEDED;
   box-shadow: none;
+  border-radius: 10px;
   
  }
 
@@ -63,3 +64,12 @@
   
   }
 }
+
+@media (min-width: 1200px) {
+  .product-card{
+    width: 306px;
+    height: 347px;
+
+  }
+}
+

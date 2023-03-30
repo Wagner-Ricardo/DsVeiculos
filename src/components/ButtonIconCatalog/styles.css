@@ -21,6 +21,8 @@
 .field-seed p {
   margin-top: 10px;
   text-align: center;
+  font-weight: 700;
+  text-align: justify;
 }
 
 .btn-icon {

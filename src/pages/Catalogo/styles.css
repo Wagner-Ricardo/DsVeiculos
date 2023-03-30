@@ -13,7 +13,7 @@
   width: 300px;
   height: 86px;
   background: #ededed;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 @media (min-width: 576px) {
@@ -26,13 +26,21 @@
 @media (min-width: 768px) {
   .catalogo-seed-container {
     width: 704px;
-    height: 123px;
+    align-items:center;
   }
 }
 
 @media (min-width: 992px) {
+
   .catalogo-seed-container {
-    width: 930px;
-    align-items: flex-start;
+    width: 942px;
+    align-items:flex-end;
+  }
+}
+
+@media (min-width : 1200px){
+  .catalogo-seed-container{
+    width: 975px;
+    align-items:flex-end;
   }
 }
